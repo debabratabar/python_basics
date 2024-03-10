@@ -1,22 +1,15 @@
-import time
+import json
 
-def cache(func):
-    print("Start of decorater")
-    cache_value = {}
-    print(cache_value)
-    def wrapper(*args):
-        if args in cache_value:
-            return cache_value[args]
-        result = func(*args)
-        cache_value[args] = result
-        return result
-    return wrapper
+# some JSON:
+x = { "name":"John", "age":30, "city":"New York"}
 
-@cache
-def long_running_function(a, b):
-    time.sleep(4)
-    return a + b
 
-print("result=" ,long_running_function(2, 3))
-print("result2=" ,long_running_function(2, 3))
-print(long_running_function(4, 3))
+
+# parse x:
+#y = json.loads(z)
+
+for ( id , userDetails ) in enumerate(x , start=1):
+            print(f"{id}. Video Name : {type(userDetails)}")
+
+# the result is a Python dictionary:
+# print(y)
