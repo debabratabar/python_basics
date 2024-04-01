@@ -15,7 +15,7 @@
 - Here's a brief overview of how `.pyc` files work:
 
 1. When you run a Python script (`example.py`), Python first checks if there's a corresponding `.pyc` file (`example.pyc`) with the same name and in the same directory as the script.
-2. If a `.pyc` file exists and is up-to-date (i.e., the source `.py` file hasn't been modified since the `.pyc` file was generated),  here python usess Diffing ALgo to find out the changes , Python loads the bytecode from the `.pyc` file and executes it directly.
+2. If a `.pyc` file exists and is up-to-date (i.e., the source `.py` file hasn't been modified since the last `.pyc` file was generated),  here python usess Diffing ALgo to find out the changes , Python loads the bytecode from the `.pyc` file and executes it directly.
 3. If there's no `.pyc` file or if it's outdated, Python compiles the source code into bytecode and then saves the bytecode to a new `. pyc` file before executing it.
 
 4. `.pyc` files are platform-independent, meaning you can distribute them and execute them on different platforms without recompiling the source code. However, they are specific to the Python version that generated them, so you can't use a `.pyc` file compiled with one Python version with a different Python version.
