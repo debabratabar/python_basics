@@ -23,3 +23,4 @@ def hello(name , surname ):
 
 
 hello("Debabrata", "Bar")
+print(hello.__name__)
