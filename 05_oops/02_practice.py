@@ -1,6 +1,9 @@
 class Chai:
     origin = 'Indian'
 
+    def origin_print(self):
+        print(f'the origin of the chai is {self.origin}')
+
 print("## Class properties ##")
 print(type(Chai))
 print(Chai.origin)
@@ -25,6 +28,7 @@ print(masala_tea.is_good)
 print(Chai.origin)
 
 print(Chai.is_good)
+
 
 
 
