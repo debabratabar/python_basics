@@ -15,8 +15,8 @@ def standard_func(func):
 def write_word(str):
     print(str)
 
-write_word('Debabrata')
-print(write_word.__name__)
+# write_word('Debabrata')
+# print(write_word.__name__)
 
 
 def cache_results(func):
@@ -29,7 +29,7 @@ def cache_results(func):
             print('From Cache: result')
             return cachee[str]
         else:
-            print('From Cache: result')
+            print('Not From Cache: result')
             return func(a,b)
 
         
@@ -43,3 +43,4 @@ def multiply(a: int, b: int) -> int:
     return a * b
 
 
+print(multiply(8,6))

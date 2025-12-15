@@ -34,9 +34,9 @@ for i in range(1,11):
     print(next(rollIwin(i)))
 
 
-# gen3 = read_file()
-# for i in range(10):
-#     print(next(gen3))
+gen3 = read_file()
+for i in range(3):
+    print(next(gen3))
 
 # arr=[]
 # gen2 = fibo()
@@ -46,14 +46,14 @@ for i in range(1,11):
 # print(arr)
 
 
-# user1 = infinite_gen("usr1")
-# user2 = infinite_gen("usr2")
+user1 = infinite_gen("usr1")
+user2 = infinite_gen("usr2")
 
-# for _ in range(5):
-#     print(next(user1))
+for _ in range(5):
+    print(next(user1))
 
-# for _ in range(3):
-#     print(next(user2))
+for _ in range(3):
+    print(next(user2))
 
 
 
