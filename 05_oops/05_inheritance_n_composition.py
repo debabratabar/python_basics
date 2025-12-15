@@ -10,6 +10,10 @@ class BaseChaiClass:
 # example of inheritance    
 class Masalachai(BaseChaiClass):
 
+    def prepare(self):
+        print(super().prepare())
+        return 'f* you'
+
     def add_spice(self ):
         return f'Adding masala for {self.type} chai '
 
