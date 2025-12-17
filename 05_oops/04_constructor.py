@@ -10,7 +10,7 @@ class ChaiOrder:
     def __init__(self  , name , price=100 ):
         self.name = name 
         self.price  =price 
-        return 1
+        # return 1
 
    
 

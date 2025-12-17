@@ -55,7 +55,7 @@ print("###################")
 shop_2 = NewChaiShop()
 
 # shop.serve()
-shop_2.chai.add_spice()
+print(shop_2.chai.add_spice())
 
 shop_2.chai.prepare()
 shop_2.serve()

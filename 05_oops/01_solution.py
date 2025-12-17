@@ -1,23 +1,23 @@
-# class Car:
-#     car_sales =0 
+class Car:
+    car_sales =0 
 
-#     def __init__(self , brand , model):
-#         self.__brand=brand
-#         self.model=model
-#         Car.car_sales +=1
+    def __init__(self , brand , model):
+        self.__brand=brand
+        self.model=model
+        Car.car_sales +=1
 
-#     def get_brand(self):
-#         return self.__brand
+    def get_brand(self):
+        return self.__brand
 
-#     def carDetails(self):
-#         print(f"Brand : {self.__brand} | Model : {self.model}")
+    def carDetails(self):
+        print(f"Brand : {self.__brand} | Model : {self.model}")
 
-#     def fuel_type(self):
-#         return "Petrol"
+    def fuel_type(self):
+        return "Petrol"
     
-#     @staticmethod
-#     def generic_Car():
-#         print("There is a 40% sale in cars ")
+    @staticmethod
+    def generic_Car():
+        print("There is a 40% sale in cars ")
 
 # class ElectricCar(Car):
 
